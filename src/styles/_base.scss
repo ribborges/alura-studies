@@ -1,0 +1,35 @@
+@import './reset';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	font-family: 'Cairo', sans-serif;
+	color: #F0F0F0;
+	background-color: #303030;
+	height: 100%;
+	width: 100%;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+#root {
+	width: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: unset;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

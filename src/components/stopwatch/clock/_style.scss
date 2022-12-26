@@ -1,0 +1,18 @@
+.clockNumber {
+    background-color: #7092c4;
+    box-shadow: 2px 2px 4px #2B2B2B inset;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+  }
+  
+  .clockSeparator {
+    height: auto;
+  
+    @media screen and (min-width:1280px) {
+      height: auto;
+    }
+  }
